@@ -1,4 +1,4 @@
-from crud import serialize
+from crud.serialize import serializers
 from crud.models import DetailsModel
 from crud.serialize import DetailsSerializer
 from rest_framework.views import APIView
